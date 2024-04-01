@@ -6,6 +6,12 @@ Welcome to the AirBnB clone project!
 
 The goal of this project is to build an AirBnB clone, starting with the development of a command-line interface to manage AirBnB objects. This initial step is crucial as it sets the foundation for the subsequent stages of the project, including HTML/CSS templating, database storage, API development, and front-end integration.
 
+## Project installation
+* Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
+* Access AirBnb directory: `cd AirBnB_clone`
+* Run hbnb(interactively): `./console` and enter command
+* Run hbnb(non-interactively): `echo "<command>" | ./console.py`
+
 ## Project Structure
 
 ### 1. Command Interpreter
@@ -23,6 +29,13 @@ Establish a simple flow of serialization/deserialization, allowing seamless conv
 ### 4. Class Hierarchy
 
 Create all classes necessary for AirBnB, such as `User`, `State`, `City`, `Place`, etc. These classes should inherit from the `BaseModel` class, providing a uniform structure for all objects in the system.
+Classes inherited from Base Model:
+* [amenity.py](/models/amenity.py)
+* [city.py](/models/city.py)
+* [place.py](/models/place.py)
+* [review.py](/models/review.py)
+* [state.py](/models/state.py)
+* [user.py](/models/user.py)
 
 ### 5. File Storage
 
